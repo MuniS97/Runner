@@ -1,11 +1,13 @@
 @media(max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
     header {
         width: 100%;
     }
 
-    main {
-        flex-direction: column;
-        gap: 50px;
+    main img {
+        width: 500px;
     }
 
     .st1_logos {
@@ -46,6 +48,11 @@
 @media(max-width: 992px) {
     .container {
         padding: 0 20px;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 50px;
     }
 
     .main_box_btn1 {
@@ -170,6 +177,7 @@
     .main_block_p {
         font-size: 12px;
     }
+
     .main_box_video_el p {
         font-size: 12px;
     }
@@ -177,16 +185,20 @@
     .st5 img {
         width: 300px;
     }
+
     .st7_input_box input {
         width: 150px;
     }
+
     .st7_input_box button {
         width: 80px;
     }
+
     .st8_box {
         flex-direction: column;
         gap: 20px;
     }
+
     .footer {
         flex-direction: column;
         gap: 20px;
